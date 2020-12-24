@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="taotao-manager-web" />
         <module name="taotao-manager-mapper" />
+        <module name="itcast-dubbo-interface" />
         <module name="taotao-common" />
         <module name="taotao-manager-interface" />
         <module name="taotao-manager-pojo" />
@@ -15,6 +16,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="itcast-dubbo-interface" target="1.5" />
       <module name="taotao-common" target="1.5" />
       <module name="taotao-manager" target="1.5" />
       <module name="taotao-manager-interface" target="1.5" />
